@@ -18,7 +18,7 @@ $(function () {
     }
   });
 
-
+// 메뉴
   $(document).on("click", ".menu_open", function (e) {
     e.preventDefault();
     $(".menu_wrap").addClass("active");
